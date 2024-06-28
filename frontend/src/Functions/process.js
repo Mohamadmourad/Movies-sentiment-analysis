@@ -2,7 +2,7 @@ import getSentiment from "./getSentiment";
 
 const process = async (setMessage, title) => {
     try {
-        const apiKey = "2f7f3c8b";
+        const apiKey = "*********";
         const data = await fetch(`https://www.omdbapi.com/?t=${title}&apikey=${apiKey}`);
         const response = await data.json();
         
@@ -20,7 +20,7 @@ const process = async (setMessage, title) => {
         let reviews = await getSentiment(url);
 
         console.log(reviews);
-        
+
         if(!reviews || reviews.length === 0){
             setMessage('Movie not found');
             return 404;
