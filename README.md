@@ -1,6 +1,4 @@
 
-Certainly! Here's a detailed GitHub README for your IMDb Review Sentiment Analysis project:
-
 IMDb Review Sentiment Analysis
 This project scrapes IMDb movie reviews, performs sentiment analysis on them using Python, and presents the results in a React frontend. The backend is powered by Node.js and Express to facilitate seamless communication between the scraping and analysis scripts and the frontend.
 
